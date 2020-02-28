@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>BasicGame</title>
+<link rel="stylesheet" type="text/css" href="style.css"/>
+<script src="./LABjs-master/LAB.js"></script>
+<script>
+    $LAB
+        .script('mynew345.js').wait()
+        .script('jquery.js').wait()
+        .script('chopper.js').wait()
+        .script('enemy.js').wait()
+        .script('bomb.js').wait()
+        .script('explode.js').wait()
+        .script('ground.js').wait()
+        .script('keyboard.js').wait()
+        .script('Screentext.js').wait(function(){
+        start();
+        })
+</script>
+</head>
+<body>
+    <div id="gameArea">
+        <canvas id="myCanvas" width="800" height="580"></canvas>
+    </div>
+    <div id="gameDialogue">
+        <body>
+            <p>Game Over!</p>
+            <p style="font-size: 30px;">Click to Play Again!</p>
+        </body></div>
+</body>
+</html>

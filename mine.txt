@@ -1,0 +1,16 @@
+
+
+
+1.  Common class for enemies.
+2.  Figure out way to make many of one thing without having to name each one.
+3.  previous version is too verbose. need to use more iterable items rather than
+    a new name for every item. Too inefficient.
+4.  "=>" functions 
+4.5 Literals -
+5.  Callback function - very interesting esp with the passed parameter...
+    let a = ['one', 'two', 'three', 'four'];
+
+    ass.forEach(function(num){console.log(num)})
+6.  Ground shouldnt be repetitive, maybe follow a map?
+7.  Fuel and damage bars.
+
